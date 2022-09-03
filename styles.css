@@ -1,0 +1,208 @@
+/* Signup Box */
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    margin-bottom: -100em;
+    width: 100%; 
+    padding-bottom:  0;
+}
+
+@media (max-height: 1024px) {
+    .body .section .social .img {
+      height: 186px;
+    }
+
+/* ===================================================== */
+@media screen and (max-width: 900px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
+
+/* Heading of the Page and logo */
+.edit img {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    top:0;
+    bottom: 0;
+}
+
+img {
+    size: 120%;
+    object-fit: cover;
+    height: 140vh;
+}
+
+header h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: gold;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    top:1%;
+    z-index:1000;
+    transform: translate(2.5);
+    cursor: pointer;
+    transition-delay: 0.1s;
+    z-index: 1000;
+}
+
+.logo h1:hover {
+    transform: scale(0.5) translateY(-15px);
+    transition:ease-in-out;
+    color: green;
+}
+
+/* ===================================================== */
+
+/* Sign up Section */
+
+section  {
+    padding: 0;
+    margin-bottom: 20px;
+    height: -50px;
+    width: 50%;
+    color: yellow;
+}
+
+.form {
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-top: 10%;
+    padding-left: 20px;
+    top: 5em;
+    width: 50%;
+    height: 10em;
+    bottom: -100px;
+    margin-left: 200px;
+    margin-right: 100px;
+    transition-delay: 0s;
+    z-index: 1000;
+}
+
+.form:hover {
+    transition:initial;
+    transform: scale(0.7) translate3d(16px);
+}
+
+ 
+.form text {
+    padding-top: 20px;
+    margin-bottom: auto;
+}
+
+.text {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: initial;
+}
+
+/* ===================================================== */
+
+/* Input Registration Details */
+
+.spacebox input {
+    width: 80%;
+    transition:0.1s; 
+}
+
+/* ===================================================== */
+
+/* Click to sign Box */
+
+.Logbox {
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;;
+}
+
+.Logbox input {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: solid;
+    text-transform: uppercase;
+    text-shadow: 1vh;
+    cursor: pointer;
+}
+
+.Logbox input:hover{
+    border-color: red;
+}
+
+.social {
+    position: relative;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center; 
+}
+
+.social img {
+    height: 30px;
+    width: 30px;
+    opacity: 1;
+}
+
+.social li {
+    list-style: none;  
+}
+
+.social li {
+    display: inline-block;
+    object-fit:scale-down;
+    margin-right: 20px; 
+    width: 20px;
+    filter:brightness(1) contrast(1);
+    transition: 4sc;
+    transform:translateY(2.5);
+}
+.a{
+    width: 10%;
+    size: 2em;
+}
+
+.social li:hover {
+    width: 5px;
+    transform: scale(0.5) translateY(-15px);
+}
+
+@media (max-height: 1024px) {
+   .social {
+      list-style: none;
+    }
+@media (max-width: 1024px) {
+   .social {
+      width: 30px
+    }
+
+  /* ================================================= */
+
+/* footer of Signup Page */
+
+footer p{
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    z-index: 1000;]
+    height: 100px;
+    margin-bottom: -18em;
+    cursor: pointer;
+}
+
+.p {
+    bottom: -50px;
+}
+
+ 
